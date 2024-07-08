@@ -2,7 +2,7 @@
     "name": "kasumi-module-template",
     "version": "0.1.0",
     "description": "Template for Kasumi modules",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "build": "tsc && tsconfig-replace-paths -p tsconfig.json -s ./src -o ./dist",
         "clean": "rimraf dist/*",
@@ -18,7 +18,7 @@
         "kook",
         "bot"
     ],
-    "author": "Hexona",
+    "author": "HexaNona",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/HexaNona/kasumi-module-template/issues"
