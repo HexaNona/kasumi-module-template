@@ -4,7 +4,6 @@ import RepeatKmdCommand from "commands/kmd"
 
 export default class AppMenu extends BaseMenu {
     name = "echo"
-    prefix = "./!"
 
     init(client: Kasumi<any>, loggerSequence: string[]): void {
         super.init(client, loggerSequence)
